@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4893A5AD"
+    tools:context=".profileFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/pic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="Personal Details "
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Name : Foiz Mahbub Soroj"
+        android:textAlignment="center"
+        android:textColor="#360BAB"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Father's Name : MD. Firoz Ali"
+        android:textAlignment="center"
+        android:textColor="#360BAB"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Mother's Name : MST. Masuda Parvin"
+        android:textAlignment="center"
+        android:textColor="#360BAB"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Blood Group : ( O+ )"
+        android:textAlignment="center"
+        android:textColor="#360BAB"
+        />
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Developed by @ Soroj Khan"
+         android:layout_marginTop="120dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
